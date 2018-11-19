@@ -17,7 +17,7 @@ class ParceirosSeeder extends Seeder
         $parceiro1->razao_social = 'i9action LTDA';
         $parceiro1->email = 'i9@action.com';
         $parceiro1->nome_fantasia = 'i9action Tecnologia';
-        $parceiro1->cnpj = '00.000.000/0001-23';
+        $parceiro1->CNPJ = '00.000.000/0001-23';
         $parceiro1->website = NULL;
         $parceiro1->endereco_completo = 'Rua Moscatel 13';
         $parceiro1->telefone = '(31) 997 895 812';
@@ -31,7 +31,7 @@ class ParceirosSeeder extends Seeder
         $parceiro2->razao_social = 'Donos do Mangais S.A.';
         $parceiro2->email = 'sitio@mangais.net';
         $parceiro2->nome_fantasia = 'Sítio dos Mangais - Pousada e Restaurante';
-        $parceiro2->cnpj = '00.000.000/0002-23';
+        $parceiro2->CNPJ = '00.000.000/0002-23';
         $parceiro2->website = 'http://mangais.net';
         $parceiro2->endereco_completo = 'Rua da ponte, depois da mesma 335';
         $parceiro2->telefone = '(31) 997 895 812';
@@ -45,7 +45,7 @@ class ParceirosSeeder extends Seeder
         $parceiro3->razao_social = 'Charles Lacerda Empreendimentos';
         $parceiro3->email = 'copiadora@cidadeflorestal.com.br';
         $parceiro3->nome_fantasia = 'Copiadora Florestal';
-        $parceiro3->cnpj = '00.000.000/0003-23';
+        $parceiro3->CNPJ = '00.000.000/0003-23';
         $parceiro3->website = 'http://copiadoraflorestal.cidadeflorestal.com.br';
         $parceiro3->endereco_completo = 'Rua central 10';
         $parceiro3->telefone = '(31) 997 895 812';
@@ -59,7 +59,7 @@ class ParceirosSeeder extends Seeder
         $parceiro4->razao_social = 'Saulo MEI';
         $parceiro4->email = 'borracharia@saulo.com';
         $parceiro4->nome_fantasia = 'Borracharia do Saulo';
-        $parceiro4->cnpj = '00.000.000/0004-24';
+        $parceiro4->CNPJ = '00.000.000/0004-24';
         $parceiro4->website = NULL;
         $parceiro4->endereco_completo = 'Rua da Esquerda, depois da casa velha';
         $parceiro4->telefone = '(31) 997 895 812';
@@ -73,7 +73,7 @@ class ParceirosSeeder extends Seeder
         $parceiro5->razao_social = 'Rádio Florestal S.F.';
         $parceiro5->email = 'radio@florestal.com.br';
         $parceiro5->nome_fantasia = 'Rádio Florestal 87,9 FM';
-        $parceiro5->cnpj = '10.000.000/0004-24';
+        $parceiro5->CNPJ = '10.000.000/0004-24';
         $parceiro5->website = NULL;
         $parceiro5->endereco_completo = 'Ato do morro, onde não mais se vê';
         $parceiro5->telefone = '(31) 997 895 812';
@@ -87,7 +87,7 @@ class ParceirosSeeder extends Seeder
         $parceiro6->razao_social = 'Projetaar S.A.';
         $parceiro6->email = 'projetar@s.a';
         $parceiro6->nome_fantasia = 'Projetaar - Soluções Empreserariais';
-        $parceiro6->cnpj = '00.000.000/0005-25';
+        $parceiro6->CNPJ = '00.000.000/0005-25';
         $parceiro6->website = NULL;
         $parceiro6->endereco_completo = 'Pertinho do centro, quase do lado do terreiro';
         $parceiro6->telefone = '(31) 997 895 812';
@@ -101,7 +101,7 @@ class ParceirosSeeder extends Seeder
         $parceiro7->razao_social = 'Ottoni MEI';
         $parceiro7->email = 'ottoni@pre.vest';
         $parceiro7->nome_fantasia = 'Ottoni Pre Vestibular';
-        $parceiro7->cnpj = '00.000.000/0006-26';
+        $parceiro7->CNPJ = '00.000.000/0006-26';
         $parceiro7->website = 'http://ottoni.pre.vest';
         $parceiro7->endereco_completo = 'Escola Estadual Dercy Ribeiro';
         $parceiro7->telefone = '(31) 997 895 812';
@@ -115,7 +115,7 @@ class ParceirosSeeder extends Seeder
         $parceiro8->razao_social = 'Maria Ester MEI';
         $parceiro8->email = 'maria@ester.com';
         $parceiro8->nome_fantasia = 'Maria Ester Congelados';
-        $parceiro8->cnpj = '00.000.000/0004-29';
+        $parceiro8->CNPJ = '00.000.000/0004-29';
         $parceiro8->website = NULL;
         $parceiro8->endereco_completo = 'Rua Das Ameixas 115o';
         $parceiro8->telefone = '(31) 997 895 812';
@@ -129,7 +129,7 @@ class ParceirosSeeder extends Seeder
         $parceiro9->razao_social = 'N. Sra. Aparecida LTDA';
         $parceiro9->email = 'deposito@nossa.senhora';
         $parceiro9->nome_fantasia = 'Depósito Nossa Sra Aparecida';
-        $parceiro9->cnpj = '00.000.000/0004-30';
+        $parceiro9->CNPJ = '00.000.000/0004-30';
         $parceiro9->website = NULL;
         $parceiro9->endereco_completo = 'Rua Benedito Valadares, 105';
         $parceiro9->telefone = '(31) 997 895 812';
@@ -143,7 +143,7 @@ class ParceirosSeeder extends Seeder
         $parceiro10->razao_social = 'Tia Lucinha MEI';
         $parceiro10->email = 'tia@lucinha.com';
         $parceiro10->nome_fantasia = 'Comercial Costa - Distribuidora de Bebidas';
-        $parceiro10->cnpj = '00.000.000/0003-32';
+        $parceiro10->CNPJ = '00.000.000/0003-32';
         $parceiro10->website = 'http://tia.lucinha';
         $parceiro10->endereco_completo = 'Rua do Correio, depois do Boteco do Sr. Alguma coisa';
         $parceiro10->telefone = '(31) 997 895 812';
@@ -157,7 +157,7 @@ class ParceirosSeeder extends Seeder
         $parceiro11->razao_social = 'Empresários do Googls';
         $parceiro11->email = 'google@googls.com';
         $parceiro11->nome_fantasia = 'Googls';
-        $parceiro11->cnpj = '00.000.000/0002-33';
+        $parceiro11->CNPJ = '00.000.000/0002-33';
         $parceiro11->website = 'http://googls.google.com';
         $parceiro11->endereco_completo = 'Alameda das ruas. 130';
         $parceiro11->telefone = '(31) 997 895 812';
@@ -171,7 +171,7 @@ class ParceirosSeeder extends Seeder
         $parceiro12->razao_social = 'Ótica Melgaço LTDA';
         $parceiro12->email = 'otica@redemelgaco.com.br';
         $parceiro12->nome_fantasia = 'Ótica Melgaço';
-        $parceiro12->cnpj = '00.000.000/0004-34';
+        $parceiro12->CNPJ = '00.000.000/0004-34';
         $parceiro12->website = NULL;
         $parceiro12->endereco_completo = 'Rua Benedito Valadares 1435';
         $parceiro12->telefone = '(31) 997 895 812';
@@ -185,7 +185,7 @@ class ParceirosSeeder extends Seeder
         $parceiro13->razao_social = 'Marmoraria Art Pedras LTDA';
         $parceiro13->email = 'marmoraria@art.pedras';
         $parceiro13->nome_fantasia = 'Marmoraria Art Pedras LTDA';
-        $parceiro13->cnpj = '00.000.000/0002-52';
+        $parceiro13->CNPJ = '00.000.000/0002-52';
         $parceiro13->website = NULL;
         $parceiro13->endereco_completo = 'Rua de trás da escola, 75';
         $parceiro13->telefone = '(31) 997 895 812';
@@ -199,7 +199,7 @@ class ParceirosSeeder extends Seeder
         $parceiro14->razao_social = 'Droga Rede S.A.';
         $parceiro14->email = 'florestal@drogarede.net';
         $parceiro14->nome_fantasia = 'Droga Rede Florestal';
-        $parceiro14->cnpj = '00.000.000/0004-35';
+        $parceiro14->CNPJ = '00.000.000/0004-35';
         $parceiro14->website = NULL;
         $parceiro14->endereco_completo = 'Praça, 175';
         $parceiro14->telefone = '(31) 997 895 812';
@@ -213,7 +213,7 @@ class ParceirosSeeder extends Seeder
         $parceiro15->razao_social = 'Papelaria Paper Clips LTDA';
         $parceiro15->email = 'bete@paper.clips';
         $parceiro15->nome_fantasia = 'Paper.Clips';
-        $parceiro15->cnpj = '00.000.000/0004-35';
+        $parceiro15->CNPJ = '00.000.000/0004-35';
         $parceiro15->website = 'http://paper.clips';
         $parceiro15->endereco_completo = 'Rua do posto 150';
         $parceiro15->telefone = '(31) 997 895 812';
