@@ -121,7 +121,9 @@
 	</form>
 	<div class="row" align="center">
 		@if (count($comentarios) == 0)
+		<div class="offset-md-2 col-md-8" align="center">
 			<p>Este artigo ainda não possui comentários feitos. ={ Seja o primeiro a comentar.</p>
+		</div>
 		@endif
 		@foreach ($comentarios as $comentario)
 			<div class="offset-md-2 col-md-8" align="left">
